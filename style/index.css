@@ -1,0 +1,596 @@
+/* classes gerais */
+
+* {
+  margin: 0;
+  background-color: #FEF9FD;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 40px;
+  color: #03141a;
+  opacity: 80%;
+  margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0%;
+    text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 32px;
+  color: #03141a;
+  opacity: 80%
+}
+
+h3 {
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #03141a;
+    opacity: 80%;
+    margin: 0;
+}
+ 
+h4 {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #03141a;
+  opacity: 80%;
+  margin: 0;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #03141a;
+    opacity: 80%;
+    margin: 0;
+}
+
+h6 {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #03141a;
+    opacity: 80%;
+    margin: 0;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 50%;
+  color: #03141a;
+  margin: 0;
+  text-align: justify;
+}
+
+button {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-style: bold;
+    background-color: rgb(3, 20, 26, 0.8);
+    border-radius: 100px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding-left: 24px;
+    padding-right: 18px;
+    height: 45px;
+    width: 180px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button i {
+    padding-left: 10px;
+    background-color: transparent;
+    width: 18px;
+    height: 18px;
+}
+  
+button:hover{
+    background-color: #03141a;
+    opacity: 100%;
+}
+
+button:focus{
+    background-color: #03141a;
+    opacity: 100%;
+}
+
+body { 
+  margin: 0px;
+}
+
+hr {
+  margin-bottom: 40px;
+  opacity: 50%;
+  width: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+/* Banner inicial */
+
+main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  border: 0;
+}
+
+main .banner {
+  width: 100vw;
+  height: 100vh; 
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+main .banner .imgBanner img {
+  width: 100vw;
+  height: 100vh; 
+  object-fit: cover;
+}
+
+.container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* Sobre nós */
+
+.sectionAbout { 
+  max-height: 55vh;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+}
+
+.imgAbout {
+  width: 50%;
+}
+
+.imgAbout img{
+  object-fit: cover;
+}
+
+.aboutInfBut {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding:0;
+  margin-left: 2%;
+  margin-bottom: 0;
+}
+
+.aboutInfBut .button {
+  margin-top: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  bottom: 0;
+  position: relative;
+
+}
+
+.aboutInfBut a {
+  margin-top: auto;
+}
+
+.aboutInf {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Filmes*/
+
+.sectionMovie {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+.divTitbut{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.moviesLine {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  align-items: center;
+}
+
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.movieImg img{
+  max-width: 300px;
+}
+
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  gap: 5px;
+}
+
+.movieCard:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: transparent;
+  z-index: 2;
+}
+
+.divTitbut .button {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: end;
+}
+
+/* Loja*/
+
+.sectionShop {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  max-height: 55vh;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+}
+
+.imgShop {
+  width: 50%;
+}
+
+.imgShop img{
+  width: 50%;
+  object-fit: cover;
+}
+
+.shopInfBut {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding:0;
+  margin-right: 2%;
+}
+
+.shopInfBut a {
+  margin-top: auto;
+}
+
+.shopInf {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.shopInfBut .button {
+  margin-top: 25%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  bottom: 0;
+  position: relative;
+}
+
+/* Trilha*/
+
+.sectionMusic {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+}
+
+.musicTitbut{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.musicsLine {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  align-items: center;
+}
+
+.musicCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+.musicCard:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: transparent;
+  z-index: 2;
+}
+
+.musicImg {
+  width: 196px;
+}
+
+.musicInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+iframe {
+  width: 100vw;
+  height: 380px;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .sectionAbout {
+    display: block;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px; 
+    max-height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .imgAbout {
+    width: 100%;
+    height: 100%;
+  }
+
+  .aboutInfBut {
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 0%;
+    max-height: 100%;
+    width: auto;
+  }
+
+  .aboutInf h1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .aboutInf p{
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .aboutInfBut .button {
+    margin-top: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+  }
+
+  hr {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+  .sectionMovie {
+    display: block;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .divTitbut{
+    display: block;
+  }
+
+  .divTitbut h1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .divTitbut .button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: end;
+  }
+
+  .moviesLine {
+    display: block;
+  }
+
+  .movieImg {
+    margin-top: 20px;
+  }
+
+  .movieInfo {
+      gap: 10px;
+      margin-bottom: 20px;
+  }
+
+  .sectionMovie a {
+      align-items: center;
+
+  }
+
+  .sectionShop {
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    max-height: 100%;
+  }
+
+  .shopInfBut {
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 0%;
+    width: auto;
+  }
+
+  .shopInf h1 {
+    margin-top: 20px;
+    text-align: center;
+  } 
+
+  .shopInfBut .button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: end;
+  }
+
+  .imgShop {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .sectionMusic {
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    max-height: 100%;
+  }
+
+  .musicsLine {
+    display: block;
+  }
+
+  .musicCard {
+    margin-top: 25px;
+    gap: 0px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .sectionAbout {
+    display: block;
+    align-items: center;
+    margin-bottom: 40px;
+    max-height: 100%;
+  }
+
+  .imgAbout {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .aboutInfBut {
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 0%;
+    max-height: 100%;
+    width: auto;
+  }
+
+  .aboutInf h1{
+    margin-top: 20px;
+  }
+
+  .aboutInfBut .button {
+    margin-top: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .sectionMovie {
+    margin-bottom: 30px;
+  }
+
+  .sectionShop {
+    display: block;
+    align-items: center;
+    margin-bottom: 40px;
+    max-height: 100%;
+  }
+
+  .shopInfBut {
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 0%;
+    width: auto;
+  }
+
+  .shopInfBut .button {
+    margin-top: 25px;
+    justify-content: end;
+  }
+
+  .imgShop {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sectionMusic {
+    margin-bottom: 40px;
+  }
+}
