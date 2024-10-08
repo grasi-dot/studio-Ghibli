@@ -2,7 +2,7 @@
 
 Projeto final feito pelo curso de HTNL e CSS da CoderHouse.
 
-Site:
+Site: https://grasi-dot.github.io/studio-Ghibli/
 
 ## Ferramentas :point_left:
 <div style="display: inline_block"><br>
