@@ -1,6 +1,6 @@
 # Site Studio Ghibli <img align="center" alt="Grasi" height="70" width="180" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGt1YmN1enBzeGd6ZWxnbzMwenhjemUwa2U1anB6MWJqN2lkbzRkOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/arxiLc5EiFhja/giphy.gif">
 
-Projeto final feito pelo curso de HTNL e CSS da CoderHouse.
+Projeto final feito pelo curso de HTML e CSS da CoderHouse em dupla link do projeto original no fim do artigo.
 
 Site: https://grasi-dot.github.io/studio-Ghibli/
 
